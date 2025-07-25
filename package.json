@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-service",
+  "version": "1.0.0",
+  "description": "A simple whatsapp service using webwhatsapp.js package to use in my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharth200119/whatsapp-service.git"
+  },
+  "keywords": [
+    "whatsapp"
+  ],
+  "author": "Siddharth Ramnani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddharth200119/whatsapp-service/issues"
+  },
+  "homepage": "https://github.com/siddharth200119/whatsapp-service#readme"
+}
