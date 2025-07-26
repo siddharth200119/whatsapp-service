@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/siddharth200119/whatsapp-service/issues"
   },
-  "homepage": "https://github.com/siddharth200119/whatsapp-service#readme"
+  "homepage": "https://github.com/siddharth200119/whatsapp-service#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "whatsapp-web.js": "^1.31.0"
+  }
 }
