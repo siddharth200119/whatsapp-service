@@ -4,7 +4,10 @@
   "description": "A simple whatsapp service using webwhatsapp.js package to use in my projects",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "dev": "nodemon index.js",
+    "prod": "node index.js",
+    "test": "npm run test",
+    "db": "node scripts/db.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +23,15 @@
   },
   "homepage": "https://github.com/siddharth200119/whatsapp-service#readme",
   "dependencies": {
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7",
     "whatsapp-web.js": "^1.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "sequelize-cli": "^6.6.3"
   }
 }
